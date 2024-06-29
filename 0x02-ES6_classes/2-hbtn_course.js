@@ -13,7 +13,6 @@ export default class HolbertonCourse {
     this._students = students;
   }
 
-  // name get & set
   get name() {
     return this._name;
   }
@@ -24,7 +23,6 @@ export default class HolbertonCourse {
     this._name = name;
   }
 
-  // length get & set
   get length() {
     return this._length;
   }
@@ -35,7 +33,6 @@ export default class HolbertonCourse {
     this._length = length;
   }
 
-  // students get & set
   get students() {
     return this._students;
   }
