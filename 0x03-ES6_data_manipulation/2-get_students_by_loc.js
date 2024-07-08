@@ -1,5 +1,3 @@
-import getListStudents from './0-get_list_students'
-
-export default function getStudentsByLocation(students = getListStudents(), city) {
-  return students.filter((el) => el.location === city);
+export default function getStudentsByLocation(students_arr, city) {
+  return students_arr.filter((el) => el.location === city);
 }
